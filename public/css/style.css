@@ -1,0 +1,16 @@
+/* Background gradasi */
+.login-bg {
+  background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+  font-family: Arial, sans-serif;
+}
+
+/* Card styling */
+.card {
+  border-radius: 15px;
+}
+
+/* Input focus */
+.form-control:focus {
+  box-shadow: 0 0 5px rgba(78, 115, 223, 0.5);
+  border-color: #4e73df;
+}

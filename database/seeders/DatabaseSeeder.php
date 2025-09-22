@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\BukuModel;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -33,5 +34,17 @@ class DatabaseSeeder extends Seeder
             'email' => 'owner@example.com',
             'role' => 'owner'
         ]);
+
+        BukuModel::create([
+        'kode_buku' => 'KB001',
+        'judul_buku' => 'Pemrograman Laravel untuk Pemula',
+        'penerbit' => 'Elex Media Komputindo',
+        'pengarang' => 'John Doe',
+        'tahun_terbit' => '2022',
+        'cover_buku' => null,
+        ]);
     }
+    
 }
+
+
